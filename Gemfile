@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.5.0'
 # Declare your gem's dependencies in helpy_onboarding.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
@@ -11,6 +12,4 @@ gemspec
 # your gem to rubygems.org.
 
 # To use a debugger
-# gem 'byebug', group: [:development, :test]
-
-gem 'deface'
+gem 'byebug', group: [:development, :test]

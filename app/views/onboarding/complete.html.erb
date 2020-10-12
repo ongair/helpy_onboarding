@@ -1,4 +1,4 @@
-<% title "#{admin_title} #{t(:setup_complete, default: "Your Helpy is ready!")}" %>
+<% title "#{admin_title} #{t(:setup_complete, default: "Your Help Desk is ready!")}" %>
 
 <script>
   ga('create', 'UA-50151-26', 'auto', 'installPinger');
@@ -48,20 +48,11 @@
 </style>
 <div id="panel-4" class="onboard-panel text-center">
   <div class="onboard-message">
-    <h2><%= t(:setup_complete, default: "Your Helpy is ready!") %></h2>
+    <h2><%= t(:setup_complete, default: "Your Help Desk is ready!") %></h2>
   </div>
   <div class="edit-admin text-left">
     <%= content_tag :p, t(:setup_complete_message,
-      default: "Your Helpy is ready to go!  You can customize more in the settings area.
-        Follow us on social media to stay up to date on important bug fixes, security patches and the latest news.") %>
-
-    <div class="text-center">
-      <ul class="list-inline social-icons">
-        <li><a href="https://github.com/helpyio/helpy" target="_blank"><span class="fab fa-github"></span></a></li>
-        <li><a href="https://www.linkedin.com/grp/home?gid=7001784" target="_blank"><span class="fab fa-linkedin"></span></a></li>
-        <li><a href="https://twitter.com/helpyapp" target="_blank"><span class="fab fa-twitter"></span></a></li>
-      </ul>
-    </div>
+      default: "Your Helpy is ready to go!  You can customize more in the settings area.") %>    
 
     <div class="onboard-submit-section text-center">
       <%= link_to t(:get_started, default: "Get Started!"), admin_root_path, class: 'btn btn-primary get-started' %>

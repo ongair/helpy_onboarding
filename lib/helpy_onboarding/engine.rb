@@ -1,4 +1,4 @@
-require 'deface'
+# require 'deface'
 
 module HelpyOnboarding
   class Engine < ::Rails::Engine
